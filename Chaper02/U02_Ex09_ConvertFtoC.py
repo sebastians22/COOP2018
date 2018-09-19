@@ -7,21 +7,21 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 08
 #     Source: Python Programming
-#    Chapter:
+#    Chapter: 02
 #
 # Program Description
-# Print program introduction
-# Get C from user and assign to fahrenheit
-# Calculate Algorith
-# Print F
+#
+#   This program converts F to C
+#
+#
 #
 # Algorithm (pseudocode)
-#
-# Caption
-#
-#
+#   Print program introduction
+#   Get C from user and assign to fahrenheitption
+#   Calculate formula
+#   Print F
 #
 
 def main():
@@ -40,5 +40,6 @@ def main():
     print(fahrenheit, "°C is equivalent to ", celsius, "°F")
 
     print("re run the program do use it again")
+
 
 main()

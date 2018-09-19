@@ -7,9 +7,9 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise: Sample 0
+#   Exercise: 00
 #     Source: Python Programming
-#    Chapter: Chapter 2
+#    Chapter: 02
 #
 # Program Description
 #   This program converts temperature from Celsius to Fahrenheit
@@ -37,5 +37,6 @@ def main():
     print(celsius, "°C is equivalent to ", fahrenheit, "°F")
 
     print("re run the program do use it again")
+
 
 main()

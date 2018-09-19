@@ -15,14 +15,15 @@
 # This will convert kilos into miles
 #
 # Algorithm (pseudocode)
-# Print hello
-# .6 k = 1 mile
-#
+#   Print hello
+#   Formula (.6 k = 1 mile)
+#   Print the answer
 
 def main():
     print("Press the box bellow. Enter in a kilometer number and it will turn it into miles.")
     kilo = eval(input("Enter Miles to convert: "))
     mile = 1
     print(mile, "is equivalent to ", kilo, "kilos")
+
 
 main()

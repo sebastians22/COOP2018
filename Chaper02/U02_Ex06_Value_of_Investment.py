@@ -7,9 +7,9 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 06
 #     Source: Python Programming
-#    Chapter:
+#    Chapter: 02
 #
 # Program Description
 # A program to compute the value of an investment
@@ -17,11 +17,11 @@
 #
 #
 # Algorithm (pseudocode)
-# Explain what it does
-# Input the time of the investment
-# Input Principle
-#  Input apr
-# Loop
+#   Explain what it does
+#   Input the time of the investment
+#   Input Principle
+#    Input apr
+#   Loop
 
 def main():
     print("This program calculates the future value of investments")
@@ -33,5 +33,6 @@ def main():
         principal = principal * (1 + apr)
 
     print("The value in years is:", principal)
+
 
 main()

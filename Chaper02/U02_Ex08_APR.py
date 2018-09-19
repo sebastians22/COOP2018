@@ -7,21 +7,21 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 08
 #     Source: Python Programming
-#    Chapter:
+#    Chapter: 02
 #
 # Program Description
 #
-#
+# Apr program
 #
 #
 # Algorithm (pseudocode)
-#
-#
-#
-#
-#
+#   Get number of periods
+#   Get number of interest
+#   Get number of interest rate
+#   Use formula
+#   print answer
 
 
 def main():

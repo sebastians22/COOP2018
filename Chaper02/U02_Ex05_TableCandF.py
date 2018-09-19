@@ -7,9 +7,9 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 05
 #     Source: Python Programming
-#    Chapter: 2
+#    Chapter: 02
 #
 # Program Description
 # This program will display a table of celsius to fahrenheit
@@ -17,9 +17,9 @@
 #
 #
 # Algorithm (pseudocode)
-# Function name
-# Description of the function
-# List every celsius with its fahrenheit until 100
+#   Function name
+#   Description of the function
+#   List every celsius with its fahrenheit until 100
 
 def main():
     print("This program lists every multiple of 10 from celsius to fahrenheit until 100")
@@ -36,5 +36,6 @@ def main():
     print((9 / 5) * 80 + 32)
     print((9 / 5) * 90 + 32)
     print((9 / 5) * 100 + 32)
+
 
 main()

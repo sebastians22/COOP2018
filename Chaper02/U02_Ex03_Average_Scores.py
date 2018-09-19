@@ -7,9 +7,9 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 03
 #     Source: Python Programming
-#    Chapter:
+#    Chapter: 02
 #
 # Program Description
 #
@@ -18,10 +18,10 @@
 #
 # Algorithm (pseudocode)
 #
-# Print what program does
-# Have user put in three scores
-# Average scores
-#
+#   Print what program does
+#   Have user put in three scores
+#   Average scores
+#   Print the final score
 
 def main():
     score_1 = eval(input("Enter first score: "))
@@ -29,3 +29,6 @@ def main():
     score_3 = eval(input("Enter thrid score: "))
     score = (score_1 + score_2 + score_3 / 3)
     print("Your score is")
+
+
+main()
