@@ -13,7 +13,9 @@
 #
 # Program Description
 # Print program introduction
-#
+# Get C from user and assign to fahrenheit
+# Calculate Algorith
+# Print F
 #
 # Algorithm (pseudocode)
 #

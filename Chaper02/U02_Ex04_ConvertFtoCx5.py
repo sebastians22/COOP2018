@@ -17,10 +17,10 @@
 #
 #
 # Algorithm (pseudocode)
-#
-#
-#
-#
+# Print Program Intro
+# Get C from user and assign to fahrenheit
+# Calculate F using 9/5 * C + 32 and assign to fahrenheit
+# Print F
 #
 
 for x in range (5):

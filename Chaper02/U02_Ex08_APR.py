@@ -23,15 +23,17 @@
 #
 #
 
+
 def main():
     print("This program calculates the future value of investments")
-    periods = eval(input("Enter the amount of periods"))
+    periods = eval(input("Enter how many periods"))
     interest = eval(input("Enter the initial interest: "))
     apr = eval(input("Enter the annual interest rate: "))
 
     for i in range(10):
-        interest = interest * (1 + apr)
+        interest = interest * (1 + apr) ** periods
 
     print("The value in periods is:", interest)
+
 
 main()
