@@ -12,7 +12,7 @@
 #    Chapter: 02
 #
 # Program Description
-#
+#   Print program intro
 #
 #
 #
@@ -25,13 +25,13 @@
 
 for x in range (5):
     def main():
-        print("Click on the bottom box, and input a celsius degrees. After you input a number press enter, and the fahrenheit degress will appear")
+
 
     #   Print program introduction
         print("This program converts temperature from Celsius to Fahrenheit")
 
     #   Get °C from user and assign to fahrenheit
-        celsius = eval(input("Enter °C to convert: "))
+        celsius = eval(input("Enter your celsius amount to convert: "))
 
     #   Calculate °F using 9/5 * °C + 32 and assign to fahrenheit  main()
         fahrenheit = 9 / 5 * celsius + 32

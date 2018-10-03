@@ -17,6 +17,7 @@
 #
 #
 # Algorithm (pseudocode)
+#   Print intro to program
 #   Get number of periods
 #   Get number of interest
 #   Get number of interest rate
@@ -26,7 +27,7 @@
 
 def main():
     print("This program calculates the future value of investments")
-    periods = eval(input("Enter how many periods"))
+    periods = eval(input("Enter the amount of periods"))
     interest = eval(input("Enter the initial interest: "))
     apr = eval(input("Enter the annual interest rate: "))
 
