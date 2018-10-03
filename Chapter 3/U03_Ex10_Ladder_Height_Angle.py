@@ -26,9 +26,12 @@
 
 def main():
     print("This program will calculate the length of a ladder needed for a height and a certain angle")
-    length = eval(input("How tall do you need to go?  "))
+    height = eval(input("How tall do you need to go?  "))
     angle = eval(input("How much of an angle will you have?  "))
 
+    length = height/angle
+
+    print("You need a ladder ", height, "feet tall")
 
 
 main()
