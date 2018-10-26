@@ -28,5 +28,6 @@ def main():
     H = eval(input("What is your Hydrogen value?"))
     C = eval(input("What is your Carbohydrates value?"))
     O = eval(input("What is your oxygen value?"))
-    print(H, C, O)
+    print("Your hydrogen is  ", H, "Your carbon is  ", C, "Your oxygen is  ", O)
+
 main()

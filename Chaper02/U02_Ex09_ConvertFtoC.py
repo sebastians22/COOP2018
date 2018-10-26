@@ -37,7 +37,7 @@ def main():
     #   Calculate °F using 9/5 * °C + 32 and assign to fahrenheit  main()
 
     #   Print °F
-    print(fahrenheit, "°C is equivalent to ", celsius, "°F")
+    print(fahrenheit, "°F is equivalent to ", celsius, "°C")
 
     print("re run the program do use it again")
 

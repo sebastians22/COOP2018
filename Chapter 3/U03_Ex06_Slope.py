@@ -18,11 +18,11 @@
 #
 # Algorithm (pseudocode)
 # Print what program is about
-# Get x1 value
-# Get x2 value
-# Get x3 value
-# Get x4 value
-# Calculate
+# Get x1 value with eval(input)
+# Get x2 value with eval(input)
+# Get x3 value with eval(input)
+# Get x4 value with eval(input)
+# Calculate using y2 - y1 / x2 - x1
 # Print the answer
 
 def main():

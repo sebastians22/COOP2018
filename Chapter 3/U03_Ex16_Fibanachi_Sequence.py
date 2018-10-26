@@ -25,14 +25,15 @@
 #
 
 def main():
-    x = 0
+    x = 1
     y = 0
     print("This program will print the fibonacci sequence")
-    x = eval(input("What number would you like to put into the fibonacci sequence?"))
-    for i in range(8):
+    z = eval(input("What number would you like to see in the sequence"))
+    for i in range(z - 1):
         x = x + y
         y = x - y
-        print(x)
+
+    print("The", z, "term is the last number", x)
 
 
 

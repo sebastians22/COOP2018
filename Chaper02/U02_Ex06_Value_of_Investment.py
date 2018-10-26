@@ -18,10 +18,11 @@
 #
 # Algorithm (pseudocode)
 #   Explain what it does
-#   Input the time of the investment
+#   Input the time of the investment (years)
 #   Input Principle
-#    Input apr
-#   Loop
+#   Input apr
+#   Use a for loop 10 times
+#   Print the answer
 
 def main():
     print("This program calculates the future value of investments")
@@ -32,7 +33,7 @@ def main():
     for i in range(10):
         principal = principal * (1 + apr)
 
-    print("The value in years is:", principal)
+    print("In", years, "years, the he value would be:", principal)
 
 
 main()
