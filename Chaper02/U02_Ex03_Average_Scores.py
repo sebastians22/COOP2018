@@ -24,11 +24,12 @@
 #   Print the final score
 
 def main():
+    print("Input three scores and this program will average them for you")
     score_1 = eval(input("Enter first score: "))
     score_2 = eval(input("Enter second score: "))
-    score_3 = eval(input("Enter thrid score: "))
-    score = (score_1 + score_2 + score_3 / 3)
-    print("Your score is")
+    score_3 = eval(input("Enter third score: "))
+    score = ((score_1 + score_2 + score_3) / 3)
+    print("Your average score is", score)
 
 
 main()

@@ -21,8 +21,8 @@
 
 def main():
     print("Press the box bellow. Enter in a kilometer number and it will turn it into miles.")
-    kilo = eval(input("Enter Miles to convert: "))
-    mile = 1
+    mile = eval(input("Enter Miles to convert: "))
+    kilo = (mile - .4)
     print(mile, "is equivalent to ", kilo, "kilos")
 
 
