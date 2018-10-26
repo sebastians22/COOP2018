@@ -24,6 +24,7 @@
 # Make average a float
 
 def main():
+
     print("This program will average out any amount of numbers")
     amount = eval(input("How many number's are you going to average"))
     i = amount

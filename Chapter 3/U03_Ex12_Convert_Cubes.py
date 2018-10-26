@@ -19,6 +19,15 @@
 # Algorithm (pseudocode)
 #   Print intro
 #   Get n value
-#   multiply in to the power of 780
+#   multiply n to the power of 780
 #
 
+def main():
+
+    print("This program will calculate a cube")
+    n = eval(input("What number would you like to cube?  "))
+    x = n * n * n
+    print(x)
+
+
+main()

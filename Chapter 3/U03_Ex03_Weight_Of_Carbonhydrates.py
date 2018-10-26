@@ -27,6 +27,6 @@ def main():
     print("This program will compute the molecular weight of carbohydrates in grams")
     H = eval(input("What is your Hydrogen value?"))
     C = eval(input("What is your Carbohydrates value?"))
-    O = eval(input("What is your oxygen valye?"))
+    O = eval(input("What is your oxygen value?"))
     print(H, C, O)
 main()
