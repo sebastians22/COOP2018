@@ -34,7 +34,7 @@ def main():
     for i in range(10):
         interest = interest * (1 + apr) ** periods
 
-    print("The value in periods is:", interest)
+    print("The value in periods is:", interest, "dollars")
 
 
 main()

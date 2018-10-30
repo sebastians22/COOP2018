@@ -18,9 +18,9 @@
 #
 # Algorithm (pseudocode)
 # print what program is about
-# number of hydrogen
-# number of carbon
-# number of oxygen
+# number of hydrogen with eval(input)
+# number of carbon with eval(input)
+# number of oxygen with eval(input)
 # print answer
 
 def main():

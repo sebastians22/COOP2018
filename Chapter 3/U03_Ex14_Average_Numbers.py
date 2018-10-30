@@ -33,7 +33,7 @@ def main():
         n = eval(input("What is your number?"))
         sum = sum + n
 
-    print(sum / i)
+    print("Your averages score is", sum / i)
 
 
 main()

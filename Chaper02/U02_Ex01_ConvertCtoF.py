@@ -1,4 +1,4 @@
-# U02_S00_ConvertCtoF.py
+# U02_S01_ConvertCtoF.py
 #
 #  Author: Sebastian
 #  Course: Coding for OOP
