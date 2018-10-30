@@ -27,7 +27,7 @@
 def main():
     x = 1
     y = 0
-    print("This program will print the fibonacci sequence")
+    print("This program will print what number you want from the fibonacci sequence")
     z = eval(input("What number would you like to see in the sequence"))
     for i in range(z - 1):
         x = x + y

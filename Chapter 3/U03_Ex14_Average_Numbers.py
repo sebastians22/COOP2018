@@ -7,7 +7,7 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 14
 #     Source: Python Programming
 #    Chapter: 3
 #
@@ -22,6 +22,8 @@
 # Set up a loop to ask as many numbers there are with x
 # Have user enter each number
 # Make average a float
+# Use the equation sum = sum + n in the loop
+# Print the response, average the score with sum/i
 
 def main():
 
