@@ -18,8 +18,7 @@
 #
 # Algorithm (pseudocode)
 # Print what program is about
-# Ask how many numbers there are (use x)
-# Set up a loop to ask as many numbers there are with x
+# Ask how many numbers there are (use x), then set up a loop with x
 # Have user enter each number
 # Make average a float
 # Use the equation sum = sum + n in the loop
@@ -29,13 +28,12 @@ def main():
 
     print("This program will average out any amount of numbers")
     amount = eval(input("How many number's are you going to average"))
-    i = amount
     sum = 0
-    for amount in range(i):
+    for amount in range(amount):
         n = eval(input("What is your number?"))
         sum = sum + n
 
-    print("Your averages score is", sum / i)
+    print("Your averages score is", sum / amount)
 
 
 main()
