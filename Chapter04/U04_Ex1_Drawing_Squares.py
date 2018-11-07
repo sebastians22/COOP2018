@@ -7,12 +7,13 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 1
 #     Source: Python Programming
-#    Chapter:
+#    Chapter: 4
 #
 # Program Description
-# This program will make a red circle, and it will say to quit
+# This program will make a red square, it will make a square where ever you click on the window,
+# and it will say to quit from the user
 #
 #
 #
@@ -20,7 +21,7 @@
 # Make a red square
 # for loop for if you click with the mouse, it will quit the program
 # A click can also draw a new square on the screen
-#
+# Press Enter to continue
 #
 
 from graphics import *
