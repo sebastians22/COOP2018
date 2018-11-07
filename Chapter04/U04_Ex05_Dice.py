@@ -7,9 +7,9 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 5
 #     Source: Python Programming
-#    Chapter:
+#    Chapter: 4
 #
 # Program Description
 # This program will make 5 dice with different numbers on each one of them
@@ -23,49 +23,28 @@
 # Make the third dice at 250, 50
 # Make the 4th dice at 350, 50
 # Make the 5th dice at 450, 50
-# Make the background blue
-# Draw the points on every die
+# Make the background red
+# Draw the points on every die, the points will be 1, 2 ,3 ,4 ,5
 #
 
 from graphics import *
-
-
-#def one() :
-#    rect1 = Rectangle(Point(x, x), Point(y, y))
-#    rect1.setFill("white")
-#    rect1.draw(win)
-
-#def two () :
-#    one()
-#    circ21 = Circle(Point(135, 35), 2)
-#    circ21.setFill("black")
-#    circ21.draw(win)
-
-def create_dice(x,y,z) :
-
-    win = GraphWin("Dice", 500, 100)
-    win.setBackground("red")
-
-
-    def one() :
-                   rect1 = Rectangle(Point(x, x), Point(y, y))
-                   rect1.setFill("white")
-                   rect1.draw(win)
-                   return
-            
-
-return;
 
 
 def main():
     win = GraphWin("Dice", 500, 100)
     win.setBackground("red")
 
-    create_dice(25, 75, 2)
+    def one():
+        rect1 = Rectangle(Point(x, x), Point(y, y))
+        rect1.setFill("white")
+        rect1.draw(win)
+        return
+    win = GraphWin("Dice", 500, 100)
+    win.setBackground("red")
 
-    #rect1 = Rectangle(Point(25, 25), Point(75, 75))
-    #rect1.setFill("white")
-    #rect1.draw(win)
+    rect1 = Rectangle(Point(25, 25), Point(75, 75))
+    rect1.setFill("white")
+    rect1.draw(win)
 
     rect2 = Rectangle(Point(125, 25), Point(175, 75))
     rect2.setFill("white")
