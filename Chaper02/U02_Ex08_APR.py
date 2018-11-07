@@ -13,7 +13,7 @@
 #
 # Program Description
 #
-# Apr program
+# This program will solve the apr of given numbers from the user. It will get periods, interest, and the apr rate
 #
 #
 # Algorithm (pseudocode)
