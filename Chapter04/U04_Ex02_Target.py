@@ -7,22 +7,21 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 2
 #     Source: Python Programming
-#    Chapter:
+#    Chapter: 4
 #
 # Program Description
 # This program will draw an archery target. Each ring will have different colors, and they will all of the same width
 #
-#
-#
 # Algorithm (pseudocode)
 # Create a GraphWin
-# Draw the inner circle yellow
-# The second circle will be red
-# The third circle will be blue
-# The fourth circle will be black
-# The fifth circle will be white
+# The center of the circle at 100, 100
+# Draw the inner circle yellow (10 pixel width)
+# The second circle will be red (20 pixel width)
+# The third circle will be blue (30 pixel width)
+# The fourth circle will be black (40 pixel width)
+# The fifth circle will be white (50 pixel width)
 # Make all circles full of their color
 # Each outer ring has a radius than previous, in increments equal to center circle radius
 #
@@ -62,9 +61,6 @@ def main():
 
     circ.draw(win1)
 
-    input("Press ENTER to continue")
+    input("Press Return to continue")
 
     win1.close()
-
-
-main()
