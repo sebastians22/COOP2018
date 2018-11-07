@@ -12,7 +12,7 @@
 #    Chapter: 03
 #
 # Program Description
-#   This program will calculate a cube
+#   This program will calculate a cube by cubing the number you would like to cube
 #
 #
 #
