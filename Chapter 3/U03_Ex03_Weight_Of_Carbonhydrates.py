@@ -18,10 +18,10 @@
 #
 # Algorithm (pseudocode)
 # print what program is about
-# number of hydrogen with eval(input)
-# number of carbon with eval(input)
-# number of oxygen with eval(input)
-# print answer
+# get the number of hydrogen with eval(input) use H
+# get the number of carbon with eval(input) use C
+# get the number of oxygen with eval(input) use O
+# print answer with H C O
 
 def main():
     print("This program will compute the molecular weight of carbohydrates in grams")
