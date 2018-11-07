@@ -32,7 +32,7 @@ def main():
 
     for i in range(10):
         n = n + 10
-        print(n, "° celsius is equivalent to", (9 / 5) * n + 32, "degrees")
+        print("The amount", n, "° celsius is equivalent to", (9 / 5) * n + 32, "degrees")
 
 
 main()
