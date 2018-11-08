@@ -19,10 +19,11 @@
 # Algorithm (pseudocode)
 # Print what the program is about
 # Get the window up
-# Ask the user for two points and that it will draw a rectangle
+# Ask the user for two points and that it will draw a rectangle.
 # Once the user has clicked twice then take the coordinates and make a square
 # Use p1 and p2 for the points that the user clicked
 # Make sure to not use point (p1), but to just use p1
+# Press RETURN to continue
 
 from graphics import *
 
