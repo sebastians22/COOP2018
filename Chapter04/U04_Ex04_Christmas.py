@@ -7,20 +7,24 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 4
 #     Source: Python Programming
-#    Chapter:
+#    Chapter: 4
 #
 # Program Description
-# This program will make a christmas scene
+# This program will make a christmas scene with a snowman and a tree
 #
 #
 #
 # Algorithm (pseudocode)
+# Make the window 500 by 500
+# Make the big circle for the snowman 25
+# Make the middle circle for the snowman 20
+# Make the small circle for the snowman 15
 # Christmas Tree (6 green points, 4 brown points
-# Christmas Tree Decorations (4 circles)
 # 3 Circles for a Snowman
-# Nose, Mouth, Eyes, Buttons (black), Arms (brown)
+# Nose, Mouth, Eyes, Arms (brown)
+#
 
 from graphics import *
 
