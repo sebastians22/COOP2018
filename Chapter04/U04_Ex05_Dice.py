@@ -12,9 +12,8 @@
 #    Chapter: 4
 #
 # Program Description
-# This program will make 5 dice with different numbers on each one of them
-#
-#
+# This program will make 5 dice with different numbers on each one of them. The background is red, and you can quit
+# by pressing ENTER
 #
 # Algorithm (pseudocode)
 # Make a window 500 by 100
@@ -31,14 +30,6 @@ from graphics import *
 
 
 def main():
-    win = GraphWin("Dice", 500, 100)
-    win.setBackground("red")
-
-    def one():
-        rect1 = Rectangle(Point(x, x), Point(y, y))
-        rect1.setFill("white")
-        rect1.draw(win)
-        return
     win = GraphWin("Dice", 500, 100)
     win.setBackground("red")
 
