@@ -34,17 +34,17 @@ def main():
 
     Face.draw(win1)
 
-    Reye = Circle(Point(83, 95), 5)
-    Reye.setFill("blue")
-    Reye.setWidth(0)
+    Right_eye = Circle(Point(83, 95), 5)
+    Right_eye.setFill("blue")
+    Right_eye.setWidth(0)
 
-    Reye.draw(win1)
+    Right_eye.draw(win1)
 
-    Leye = Circle(Point(117, 95), 5)
-    Leye.setFill("blue")
-    Leye.setWidth(0)
+    Left_eye = Circle(Point(117, 95), 5)
+    Left_eye.setFill("blue")
+    Left_eye.setWidth(0)
 
-    Leye.draw(win1)
+    Left_eye.draw(win1)
 
     Nose = Polygon(Point(105, 115), Point(100, 105), Point(95, 115))
     Nose.setFill("tan")
