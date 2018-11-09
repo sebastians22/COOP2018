@@ -12,7 +12,7 @@
 #    Chapter: 4
 #
 # Program Description
-# This program will get two points by the user x1, y1, and x2, y2, and it will draw a rectangle with it.
+# This program will get two points by the user x1, y1, and x2, y2, (via click) and it will draw a rectangle with it.
 #
 #
 #
