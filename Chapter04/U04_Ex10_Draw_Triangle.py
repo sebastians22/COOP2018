@@ -21,7 +21,9 @@
 # Ask the user to click on three places on the screen
 # The point variables are p1, p2, p3
 # Use the triangle formula wit p1, p2, and p3 to make a triangle
-#
+# Print all the sides, then print the area using the function
+# Make a get function
+# p1.getX()...
 #
 
 from graphics import *
