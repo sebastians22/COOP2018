@@ -17,10 +17,10 @@
 #
 #
 # Algorithm (pseudocode)
-# Get p1 and p2 from the user to make a rectangle
-#
-#
-#
+# Get p1 and p2 from the user to make a rectangle, draw the rectangle
+# get x and y of p1 and p2
+# calculate the area with area = length * width
+# calculate the perimeter with perimeter 2 * (area + perimeter
 #
 
 from graphics import *
