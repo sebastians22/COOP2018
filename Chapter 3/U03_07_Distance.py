@@ -22,14 +22,16 @@
 # Show the formula
 # Print the answer
 #
-
+import math
 def main():
     print("This program will calculate the distance formula for you if you put in 4 coordinates")
     x1 = eval(input("Please put in the first coordinate"))
     x2 = eval(input("Please put in the second coordinate"))
     y1 = eval(input("Please put in the third coordinate"))
     y2 = eval(input("Please put in the fourth coordinate"))
-    print("Your distance is" (x2 - x1)**2 + (y2 - y1)**2)
+    print("Your distance is",  math.sqrt((x2 - x1)**2 + (y2 - y1)**2))
 
 
 main()
+
+def distance
