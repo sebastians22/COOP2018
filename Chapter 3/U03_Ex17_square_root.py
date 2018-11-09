@@ -13,7 +13,7 @@
 #
 # Program Description
 #
-#
+# This program will create a function to compute the square root of numbers
 #
 #
 # Algorithm (pseudocode)
