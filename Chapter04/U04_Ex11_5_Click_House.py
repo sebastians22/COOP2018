@@ -22,6 +22,7 @@
 # Get p3 with mouse clicks and make a door with it. The click should be the top mid of the door
 # Get p4 for the window, get the middle
 # Get p5 is the roof (polygon), find a way to get three points from one click, use p1 and p2
+# Get the value for p1 and p2 and use x1, y2, x2, y2 and p5 for the triangle
 
 from graphics import *
 import math
