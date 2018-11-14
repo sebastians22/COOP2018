@@ -1,0 +1,21 @@
+Algorithm:
+
+Main:
+
+Print the introductions ("In this program you will input 4 numbers to be tested in Ferment's Last Theorem")
+Print("The formula is  a**n + b**n = c**n")
+eval input ask for a
+eval input ask for b
+eval input ask for c
+eval input ask for n
+Call Check_ferment
+return Check_ferment
+
+Check_ferment:
+
+Use def check_ferment for names of the function
+if n is greater than 2 print "Holy smokes, Ferment was wrong!"
+if n is less than or equal to 2 print "True"
+Return
+
+main()
