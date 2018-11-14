@@ -7,9 +7,8 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise: 56
-#     Source: Python Programming
-#    Chapter: Tri 1 exam
+#
+#   Trimester 1 exam
 #
 # Program Description
 #
@@ -18,17 +17,24 @@
 #
 # Algorithm (pseudocode)
 # Write the def main()
-# Print what the program is about
-# Ask the user for sides a, b and, c of the triangle
-# Use the is_triangle function
-# Return the function
+# Print what the program is about (use program description)
+# Ask the user for sides a, b and, c of the triangle using eval(input(prompt  )
+# Use the is_triangle function and have it use a, b, and c variables
+# (go to is_triangle)
+# it = is_triangle(a, b, c)
+# print that true means that the length of that line is good, and false means that the line needs to be shorter
+# print the three sides of the triangle (s1, s2 ,s3) with a message "Side (one/two/three)"
+# print "This triangle is", it"
+# main()
+
 # is_triangle function:
-# use the name is_triange(a, b, c)
-# (add a + b < c
-# add b + c < a
-# add a + c < b)
-# This is the equation to use to see if the triangle will work
-# Return
+# use the name is_triangle(a, b, c)
+# If b + c >= a return True  After this line have a return false
+# If c + a >= b return True  After this line have a return false
+# If a + b >= c return True  After this line have a return false
+# return the information to the main()
+#
+
 
 def main():
     print("This program you will input 3 values to form a triangle.")
@@ -37,16 +43,35 @@ def main():
     b = eval(input("Enter the seconds sides length  "))
     c = eval(input("Enter the thirds sides length  "))
     print("True means that the sides are good, false means that you need to make that side smaller")
-    triangle(a, b, c)
+    it = is_triangle(a, b, c)
+    print("Side one is", a)
+    print("Side two is", b)
+    print("Side three is", c)
+    print("This triangle is", it)
 
 
-def triangle(a, b, c):
-    s1 = b + c >= a
-    s2 = c + a >= b
-    s3 = a + b >= c
-    print("Side one is", s1)
-    print("Side two is", s2)
-    print("Side three is", s3)
+def is_triangle(a, b, c):
+    if b + c >= a:
+        return True
+
+    return False
+
+    if c + a >= b:
+        return True
+
+    return False
+
+    if a + b >= c:
+        return True
+
+    return False
+
+    # s1 = b + c >= a
+    # s2 = c + a >= b
+    # s3 = a + b >= c
+    # return True
+    # return False
 
 
-main()
+if __name__ == '__main__':
+    main()
