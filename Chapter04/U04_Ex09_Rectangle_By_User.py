@@ -12,7 +12,7 @@
 #    Chapter: 4
 #
 # Program Description
-# This program will get two points by the user x1, y1, and x2, y2, (via click) and it will draw a rectangle with it.
+# In this program the user will click twice, and at the two points on where the user clicked a rectangle will be drawn
 #
 #
 #
@@ -22,12 +22,14 @@
 # Ask the user for two points and that it will draw a rectangle.
 # Once the user has clicked twice then take the coordinates and make a square
 # Use p1 and p2 for the points that the user clicked
-# Make sure to not use point (p1), but to just use p1
+# (Make sure to not use point (p1), but to just use p1)
 # Press RETURN to continue
 
 from graphics import *
 
+
 def main():
+
     print("This program will draw a rectangle where ever you click the mouse")
     win = GraphWin("Click Me!")
     p1 = win.getMouse()
