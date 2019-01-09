@@ -19,32 +19,30 @@
 # Algorithm (pseudocode)
 # Print what the program does
 # Have the user enter in words using input, use words as the variable
-#
-#
-#
+# Make all the words uppercase all of the words
+# Make a final variable with quotations
+# Make a for loop with for chunks in chunks
+# Have first_char = to 0
+# first_char_string is = to the first letter of all the words
+# Make final += to the first_char_string
+# print the original words and the final acronym
 
 
 def main():
 
-    words = input("What words would you like to acronym? ")
+
+    words = input("Please enter a phrase to become an acronym: ")
+
     words_upper = words.upper()
     chunk = words_upper.split()
 
-    space = words.find("")
-
-    for chunk in words_upper:
-        char = (chunk[0])
-        char_str = str(char)
-        acronym = char_str
-        final = acronym
+    final = ""
+    for chunk in chunk:
+        first_char = (chunk[0])
+        first_char_str = str(first_char)
+        final += first_char_str
 
     print("The acronym of", words, "is", final)
 
 
-
-
-
-
-
-    # program is just printing what is inputed. I have to just take the first letter.
 main()
