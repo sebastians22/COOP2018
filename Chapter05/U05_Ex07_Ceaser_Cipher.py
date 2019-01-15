@@ -144,8 +144,8 @@ def main():
     message_lower = message.lower()
     message_split = message_lower.split()
     cipher = code + message_split
-    #final = message_split + code
-    print(letters)
+    final = message_split + code
+    print("Your original message is", message, "and the coded message by", code, "would be", final,".")
 
 
 main()
