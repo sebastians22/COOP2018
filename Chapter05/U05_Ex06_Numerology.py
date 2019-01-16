@@ -12,18 +12,24 @@
 #    Chapter: 5
 #
 # Program Description
-# This program will assign numbers to every letter, and the user will enter a word and it will output
-# # how much the word is worth. Make spaces worth 0
+# This program will show the numeric value of your full name
+#
 #
 #
 #
 # Algorithm (pseudocode)
-# Print the intro to the program
-# Make a list with every letter of the alphabet = to a number. a = 1, b = 2, c = 3...
-# Make spaces worth 0
-# have the user input their name, tell them it can take their full name
-# create an algorithm to make each letter go with a name, then add all the letters up
-# Print the numeric value of the name
+# Have the user enter a name, use name as a variable
+# Make all the letters of what the user entered to lowercase, use lower_name as a variable
+# split the lower_name, use new_name as a variable
+# write out the alphabet and make a capital X before the start to account for -1, name that letters (Xabcd....)
+# Make word_value worth 0
+# Make char worth 0
+# Join the new_name, have it named new_new_name
+# Make a loop for char in new_name
+# Make a letter_value worth 0
+# Find the new_new_name
+# Make word_value = to word_value + letter_value
+# Print the value of your name is (new_new_name)
 
 def main():
     name = input("Please enter a name ")
@@ -32,19 +38,15 @@ def main():
     letters = "Xabcdefghijklmnopqrstuvwxyz"
     word_value = 0
     char = 0
-    # int_name = new_name.int
-    """new_name has to be a string, not a list, only thing that's wrong"""
+    letter_value = 0
 
     new_new_name = (''.join(new_name))
 
     for char in new_name:
-        letter_value = 0
         name.find(new_new_name)
-        #letter_values = letters.index(char)
         word_value = word_value + letter_value
-        #str_value = word_value.join()
 
-    print("The value of your name is", new_new_name)
+    print("The numeric value of your name is", new_new_name, ".")
 
 
 main()
