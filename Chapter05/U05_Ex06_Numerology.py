@@ -12,8 +12,8 @@
 #    Chapter: 5
 #
 # Program Description
-# This program will show the numeric value of your full name
-#
+# This program will show the numeric value of your full name, numerologists claim that they
+# can determine a persons character traits based on the numeric value of a persons name
 #
 #
 #
@@ -32,21 +32,27 @@
 # Print the value of your name is (new_new_name)
 
 def main():
+    print("This program will show the numeric value of your name,numerologists claim that they "
+          "can determine a persons character traits based on the numeric value of a persons name")
+    # Have the user enter a name, use name as a variable
     name = input("Please enter a name ")
+    # Make all the letters of what the user entered to lowercase, use lower_name as a variable
     lower_name = name.lower()
+    # split the lower_name, use new_name as a variable
     new_name = lower_name.split()
+    # write out the alphabet and make a capital X before the start to account for -1, name that letters (Xabcd....)
     letters = "Xabcdefghijklmnopqrstuvwxyz"
     word_value = 0
     char = 0
     letter_value = 0
-
+    # Join the new_name, have it named new_new_name
     new_new_name = (''.join(new_name))
 
     for char in new_name:
         name.find(new_new_name)
         word_value = word_value + letter_value
-
-    print("The numeric value of your name is", new_new_name, ".")
+    # Print the value of your name is (new_new_name)
+    print(name, ", The numeric value of your name is", new_new_name, ".")
 
 
 main()
