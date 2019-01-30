@@ -28,13 +28,11 @@ def main():
 
     print("This program will put grades into the A, B, C, D, and F buckets")
 
-    Stugrade = eval(input("What grade did the student get? "))
-
+    stugrade = eval(input("What grade did the student get? "))
     gradesStr = 'F' * 60 + 'D' * 10 + 'C' * 10 + 'B' * 10 + 'A' * 11
+    stugrade = gradesStr[int(stugrade) - 1]
 
-    Stugrade = gradesStr[int(Stugrade) - 1]
-
-    print("The student got a", Stugrade)
+    print("The student got a", stugrade)
 
 
 main()
