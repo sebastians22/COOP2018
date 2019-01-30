@@ -19,7 +19,8 @@
 # Algorithm (pseudocode)
 # Print what the program is about (use a version of the program description)
 # use Stugrade for variable for an eval input to get what the student got on the exam
-# Make a grade String called gradeStr with A,B,C,D,F, make F * 60 + D * 10 + C * 10 + B * 10 + A * 11 to get the grade to record correctly
+# Make a grade String called gradeStr with A,B,C,D,F, make F * 60 + D * 10 + C * 10 + B * 10 + A * 11 to get the
+#   grade to record correctly
 # Have Stugrade subtract by one to account that the computer counts zero
 # print what the students grade was
 
