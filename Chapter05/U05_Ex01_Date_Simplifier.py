@@ -18,7 +18,7 @@
 #
 # Algorithm (pseudocode)
 # Print what the program is about, use a shorter version of the program description
-# Use a string to get monthStr, dayStr, and year Str = dateStr
+# Use a string to get "monthStr", "dayStr", and "yearStr" = dateStr
 # print a blank line to make the code easier to read
 # print month/day/year
 # print a blank line to make the code easier to read
