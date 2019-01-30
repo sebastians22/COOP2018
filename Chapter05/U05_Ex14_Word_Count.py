@@ -33,11 +33,8 @@ def main():
     print("This program tells you the amount of words you input from a file")
 
     file = input("Please input the file name to the program")
-
     words = open(file)
-
     lines = words.readlines()
-
     words.close()
 
     word = 0
