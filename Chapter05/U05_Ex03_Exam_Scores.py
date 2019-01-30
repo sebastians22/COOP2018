@@ -30,7 +30,8 @@ def main():
     print("This program will put grades into the A, B, C, D, and F buckets")
 
     stugrade = eval(input("What grade did the student get? "))
-    gradesStr = 'F' * 60 + 'D' * 10 + 'C' * 10 + 'B' * 10 + 'A' * 11
+    #new_stugrade = stugrade - 1
+    gradesStr = 'F' * 59 + 'D' * 10 + 'C' * 10 + 'B' * 10 + 'A' * 11
     stugrade = gradesStr[int(stugrade) - 1]
 
     print("The student got a", stugrade)
