@@ -24,11 +24,10 @@ import math
 
 def main():
 
-
     print("This program will calculate the volume and surface are of a sphere using pi")
     radius = eval(input("What is your radius value?"))
-    print(radius, "The volume of the sphere is", volume)
-    print(radius, "Surface area of the sphere is", area)
+    print(radius, "The volume of the sphere is", sphereVolume(radius))
+    print(radius, "Surface area of the sphere is", sphereArea(radius))
 
 
 def sphereArea(radius):
