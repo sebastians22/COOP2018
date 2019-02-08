@@ -25,16 +25,26 @@
 #
 
 def main():
+
+    print("This program will print what number you want from the fibonacci sequence")
+    num = eval(input("What number would you like to see in the sequence  "))
+
+    x = pi(num)
+
+    print("The", num, "term of Fibonacci is number", x)
+
+
+def pi(num):
+
     x = 1
     y = 0
-    print("This program will print what number you want from the fibonacci sequence")
-    num = eval(input("What number would you like to see in the sequence"))
+
     for i in range(num - 1):
         x = x + y
         y = x - y
 
-    print("The", num, "term is the last number", x)
-
+    return x
 
 
 main()
+
