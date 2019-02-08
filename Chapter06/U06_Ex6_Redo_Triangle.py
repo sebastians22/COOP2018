@@ -29,17 +29,33 @@
 
 import math
 
-
-def main():
-    print("This program will calculate the area of a triangle")
+def Input():
     a = eval(input("What is your first length?  "))
     b = eval(input("What is your second length?  "))
     c = eval(input("What is your third length?  "))
-    print(A, " is the area of your triangle")
 
+    return a, b, c
 
 def area(a, b, c):
     s = a + b + c / 2
-    A = math.sqrt(s(s - a)(s - b)(s - c))
+    d = 0
+    d = int(d)
+    d = math.sqrt(s(s - a)(s - b)(s - c))
+
+    return d
+
+def main():
+    InputCall = Input()
+    A = 0
+    B = 0
+    C = 0
+    bub = area(A, B, C)
+    print("This program will calculate the area of a triangle")
+    print(bub, " is the area of your triangle")
+
 
 main()
+
+
+
+
