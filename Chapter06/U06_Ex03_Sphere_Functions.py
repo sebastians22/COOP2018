@@ -7,9 +7,9 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 3
 #     Source: Python Programming
-#    Chapter:
+#    Chapter: 6
 #
 # Program Description
 # This program will write a program that will calculate the volume and surface area of a sphere
@@ -35,10 +35,12 @@ def sphereArea(radius):
     area = 4 * math.pi * radius**2
     return area
 
+
 def sphereVolume(radius):
 
     volume = 4 / 3 * math.pi * radius ** 3
 
     return volume
+
 
 main()
