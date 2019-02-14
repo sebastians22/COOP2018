@@ -22,7 +22,11 @@
 #   eval original number
 #   Start printing sequence
 #
-#
+# def pi(num)
+# make x = 1 and y = 0
+# make a for loop with a range of num - 1
+# Use the quations x = x + y and y = x - y
+# return x
 
 def main():
 
