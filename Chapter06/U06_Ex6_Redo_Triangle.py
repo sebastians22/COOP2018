@@ -24,17 +24,42 @@
 # Calculate again with A = math.sqrt(s(s-a)(s-b)(s-c))
 # Print answer
 #
-
+# def Input()
+# get a b and c of the sides of the triangle
+# return a, b, c
+#
+# def area(a, b, c)
+# sides = a + b + c / 2
+# have d = 0
+# make d and int
+# have d = squared(s(s-a)(s-b)(s-c))
+# return d
 
 
 import math
 
+
+def main():
+    print("This program will calculate the area of a triangle with sides entered by the user")
+
+    InputCall = Input()
+    A = 0
+    B = 0
+    C = 0
+    final = area(A, B, C)
+
+    print("This program will calculate the area of a triangle")
+    print(final, " isa the area of your triangle")
+
+
 def Input():
+
     a = eval(input("What is your first length?  "))
     b = eval(input("What is your second length?  "))
     c = eval(input("What is your third length?  "))
 
     return a, b, c
+
 
 def area(a, b, c):
     s = a + b + c / 2
@@ -44,14 +69,8 @@ def area(a, b, c):
 
     return d
 
-def main():
-    InputCall = Input()
-    A = 0
-    B = 0
-    C = 0
-    bub = area(A, B, C)
-    print("This program will calculate the area of a triangle")
-    print(bub, " is the area of your triangle")
+
+
 
 
 main()
