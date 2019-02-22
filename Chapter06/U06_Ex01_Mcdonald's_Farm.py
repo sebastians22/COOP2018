@@ -12,7 +12,7 @@
 #    Chapter: 6
 #
 # Program Description
-# This program will print Old Mcdonalds Farm using functions
+# This program will print Old Mcdonalds Farm using functions. It will print different animals and different sounds
 #
 #
 #
