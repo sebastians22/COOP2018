@@ -7,39 +7,35 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise:
+#   Exercise: 9
 #     Source: Python Programming
-#    Chapter:
+#    Chapter: 6
 #
 # Program Description
-#
-#
-#
+# This program will put the students grade into different catagories depending on what they got.
 #
 # Algorithm (pseudocode)
+# Ask the user for what they got (stugrade)
+# make a grade string that says if they got an A,B,C,D, or F
+# subtract one from stugrade so the computed can read it
+# print what the student got (stugrade)
 #
 #
-#
-#
-#
-
 
 
 def main():
 
-    def scores(stugrade):
-        gradesStr = 'F' * 59 + 'D' * 10 + 'C' * 10 + 'B' * 10 + 'A' * 11
-
-        return stugrade
-
-
-    print("This program will put grades into the A, B, C, D, and F buckets")
-
     stugrade = eval(input("What grade did the student get? "))
-    #new_stugrade = stugrade - 1
-    stugrade = gradesStr[int(stugrade) - 1]
+    #gradesStr = 'F' * 59 + 'D' * 10 + 'C' * 10 + 'B' * 10 + 'A' * 11
+    #stugrade = gradesStr[int(stugrade) - 1]
 
     print("The student got a", stugrade)
+
+    def stugrade(new_stugrade):
+
+        gradesStr = 'F' * 59 + 'D' * 10 + 'C' * 10 + 'B' * 10 + 'A' * 11
+        new_stugrade = gradesStr[int(stugrade) - 1]
+        return stugrade
 
 
 main()
