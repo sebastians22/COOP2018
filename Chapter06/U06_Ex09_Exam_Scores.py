@@ -26,16 +26,16 @@
 def main():
 
     stugrade = eval(input("What grade did the student get? "))
-    #gradesStr = 'F' * 59 + 'D' * 10 + 'C' * 10 + 'B' * 10 + 'A' * 11
-    #stugrade = gradesStr[int(stugrade) - 1]
 
-    print("The student got a", stugrade)
+    new_stugrade = calc(stugrade)
 
-    def stugrade(new_stugrade):
+    print("The student got a", new_stugrade)
 
-        gradesStr = 'F' * 59 + 'D' * 10 + 'C' * 10 + 'B' * 10 + 'A' * 11
-        new_stugrade = gradesStr[int(stugrade) - 1]
-        return stugrade
+def calc(stugrade):
+
+    gradesStr = 'F' * 59 + 'D' * 10 + 'C' * 10 + 'B' * 10 + 'A' * 11
+    new_stugrade = gradesStr[int(stugrade) - 1]
+    return new_stugrade
 
 
 main()
