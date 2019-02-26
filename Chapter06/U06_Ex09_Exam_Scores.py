@@ -12,15 +12,17 @@
 #    Chapter: 6
 #
 # Program Description
-# This program will put the students grade into different catagories depending on what they got.
+# This program will put the students grade into different buckets of A,B,C,D, and F using functions
 #
 # Algorithm (pseudocode)
 # Ask the user for what they got (stugrade)
-# make a grade string that says if they got an A,B,C,D, or F
-# subtract one from stugrade so the computed can read it
+# call calc(stugrade)
 # print what the student got (stugrade)
 #
-#
+# Function calc
+# subtract one from stugrade so the computed can read it
+# make a grade string that says if they got an A,B,C,D, or F
+# Return stugrade
 
 
 def main():
