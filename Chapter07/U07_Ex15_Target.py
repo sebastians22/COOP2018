@@ -12,8 +12,8 @@
 #    Chapter: 7
 #
 # Program Description
-#
-#
+# This program will make an archery target, and the user will click on the archery target 5 times, it will
+# show where the user clicked, and it will give them points and add it up on the screen
 #
 #
 # Algorithm (pseudocode)
