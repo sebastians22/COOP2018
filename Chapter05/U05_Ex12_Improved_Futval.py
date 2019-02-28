@@ -7,12 +7,12 @@
 #   IDE: PyCharm
 #
 # Assignment Info
-#   Exercise: 6
+#   Exercise: 12
 #     Source: Python Programming
-#    Chapter: 4
+#    Chapter: 5
 #
 # Program Description
-# This program will modify the graphical future value program to add graphics
+# This program will print a table of the yearly balance account after entering principle, balance, and how many years of investing
 #
 #
 #
@@ -22,15 +22,16 @@
 # have the user enter the apr
 # have the user enter how many years they would be investing into the bank
 # print a table
-# have a for loop years = to years
+# have a for loop years in range (years)
 # have principle = principle * apr + 1
+# print the total of how much they will get
 
 def main():
 
     print("This program will calculate the future value over 10 years ")
     print()
 
-    principle = eval(input("Enter the annul interest rate "))
+    principle = eval(input("Enter the initial principle "))
     print()
 
     apr = eval(input("Enter the annul interest rate "))
@@ -45,7 +46,6 @@ def main():
     for years in range(years):
         principle = principle * (1 + apr)
 
-    print("Over", years + 1, "you will have", principle, "dollars.")
-
+        print('{0:4}\t${1:.2f}'.format(years + 1, principle))
 
 main()
