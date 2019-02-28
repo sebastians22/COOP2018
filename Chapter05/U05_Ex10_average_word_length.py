@@ -17,22 +17,24 @@
 #
 #
 # Algorithm (pseudocode)
-# Print the program introduction
-# Have the user input words to average, use words for a variable
-# assign each letter to a number, use zzzz for 0, use letters for a variable
-# split words to find out how many words their are
-# average out the letters to words
+# print the intro to the program
+# have the user enter a sentence that will be averages
+# split the sentence and have it into words
+# make average = adding all of the words by letters and divide it by how many words there are
+# print the answer
 
 def main():
 
     print("This program will determine the average word length of a sentence, paragraph, or paper")
-    words = input("Please enter words to be averaged ")
-    letters = {'zzzz': '0', 'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5', 'f': '6', 'g': '7', 'h': '8', 'i': '9',
-               'j': '10', 'k': '11', 'l': '12', 'm': '13', 'n': '14', 'o': '15', 'p': '16', 'q': '17', 'r': '18',
-               's': '19', 't': '20', 'u': '21', 'v': '22', 'w': '23', 'x': '24', 'y': '25', 'z': '26'}
-    new_words = words.split()
-    final = words/letters
-    print("The average word length of each word is", final, ".")
+    sentence = input("Please enter words to be averaged ")
+
+    words = sentence.split()
+
+    average = sum(len(word) for word in words) / len(words)
+
+    print("In the sentence", sentence, "there are", average, "letters per word.")
+
+
 
 
 main()
