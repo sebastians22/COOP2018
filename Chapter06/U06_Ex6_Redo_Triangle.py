@@ -13,7 +13,7 @@
 #
 
 # Program Description
-# Calculate the area of a triangle using the area formula a = lw
+# This program will ask the user to draw a triangle and it will do that and calculate the are and print how long each side is
 #
 #
 #
