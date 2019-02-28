@@ -18,62 +18,67 @@
 #
 #
 # Algorithm (pseudocode)
-# Print what program is about
-# Get all three sides of triangle using eval(input), use a b c
-# Calculate with the formula with a+v+c/2
-# Calculate again with A = math.sqrt(s(s-a)(s-b)(s-c))
-# Print answer
+# Get the window up
+# Print the intro statement
+# Ask the user to click on three places on the screen
+# The point variables are p1, p2, p3
+# Use the triangle formula wit p1, p2, and p3 to make a triangle
+# Print all the sides, then print the area using the function
+# Make the triangle what ever colour you want
+# get each distance of the sides by getting the distance of every side, use a, b, c
+# make s = a, b, c, /2
+# print the outro
 #
-# def Input()
-# get a b and c of the sides of the triangle
-# return a, b, c
-#
-# def area(a, b, c)
-# sides = a + b + c / 2
-# have d = 0
-# make d and int
-# have d = squared(s(s-a)(s-b)(s-c))
-# return d
+# Make a get function
+# Get all the points from the triangle
+# make a distance formula that averages the triangle
 
 
+from graphics import *
 import math
 
-
 def main():
-    print("This program will calculate the area of a triangle with sides entered by the user")
+    win = GraphWin("Triangle")
+    print("Press on three points of the screen to make a triangle")
+    p1 = win.getMouse()
+    p2 = win.getMouse()
+    p3 = win.getMouse()
+    Triangle = Polygon(p1, p2, p3)
+    Triangle.setFill("red")
+    Triangle.draw(win)
 
-    InputCall = Input()
-    A = 0
-    B = 0
-    C = 0
-    final = area(A, B, C)
-
-    print("This program will calculate the area of a triangle")
-    print(final, " isa the area of your triangle")
-
-
-def Input():
-
-    a = eval(input("What is your first length?  "))
-    b = eval(input("What is your second length?  "))
-    c = eval(input("What is your third length?  "))
-
-    return a, b, c
+    a = distance(p1, p2)
+    b = distance(p2, p3)
+    c = distance(p3, p1)
 
 
-def area(a, b, c):
-    s = a + b + c / 2
-    d = 0
-    d = int(d)
-    d = math.sqrt(s(s - a)(s - b)(s - c))
+    s = a+b+c/2
 
-    return d
+    print("Side one is", p1)
+    print("Side two is", p2)
+    print("Side three is", p3)
+
+    dist = distance(p1, p2)
+
+    print("The area of your triangle is", dist)
+
+    input("Press ENTER to continue")
 
 
 
+def distance(p1, p2):
+    x1 = p1.getX()
+    y1 = p1.getY()
+    x2 = p2.getX()
+    y2 = p2.getY()
 
+    dist = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+    return dist
 
 main()
+
+
 
 
 
