@@ -31,7 +31,7 @@ def main():
 
     numbers = [1, 2, 3, 4]
     list = cal(numbers)
-    print(list)
+    print("the added up numbers in your list is", list)
 
 
 def cal(nums):
