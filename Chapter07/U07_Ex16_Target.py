@@ -1,4 +1,4 @@
-# U07_Ex15_Target.py
+# U07_Ex16_Target.py
 #
 #  Author: Sebastian Schaefer
 #  Course: Coding for OOP
