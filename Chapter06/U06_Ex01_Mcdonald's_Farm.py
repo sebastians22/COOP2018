@@ -43,11 +43,20 @@ def main():
 
 def mcdonald(animal, sound):
 
+    print()
+    print()
+    print()
     print("Old mcdonald had a farm Ee-igh, Ee-igh, Oh!")
+    print()
     print("And on that farm he had a", animal + ".")
+    print()
     print("With a", sound, sound, "here and a", sound, sound, "there")
+    print()
     print("Here a", sound, "there a", sound, "everywhere a", sound, sound + ".")
+    print()
     print("Old mcdonald had a farm Ee-igh, Ee-igh, Oh!")
+    print()
+    print()
     print()
 
 
