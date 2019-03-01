@@ -34,16 +34,20 @@ def main():
     name = input("Please enter a name ")
     lower_name = name.lower().replace(" ", "")
 
+    word_value = letters(lower_name, name)
+
+    print("The value of your name(", name, ") is", word_value)
+
+def letters(lower_name, name):
     letters = "Xabcdefghijklmnopqrstuvwxyz"
     word_value = 0
 
     for char in lower_name:
-
         name.find(lower_name)
         letter_value = letters.index(char)
         word_value = word_value + letter_value
 
-    print("The value of your name(", name, ") is", word_value)
+    return word_value
 
 
 main()
