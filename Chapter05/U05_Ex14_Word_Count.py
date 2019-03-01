@@ -23,8 +23,11 @@
 # Read file
 # Close the file
 # Make words and chars = 0
-# Make a loop lines for lines
-# Make a loop words for words
+# Make a for loop lines for lines
+# split the lines
+# len the words
+# make another for loop for words in words
+# make char += len(words)
 # Print the answer
 
 
@@ -42,7 +45,7 @@ def main():
 
     for lines in lines:
         lines_split = lines.split
-        word += len(lines_split)
+        lines_split += len(words)
 
     for words in words:
         char += len(words)
