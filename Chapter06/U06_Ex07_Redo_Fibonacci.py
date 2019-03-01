@@ -12,20 +12,20 @@
 #    Chapter:
 #
 # Program Description
-# This program will print the fibonacci sequence with 1, 1, 2, 3, 5, 8, 13
-#
+# This program will print the fibonacci sequence with 1, 1, 2, 3, 5, 8, 13. It will then ask the user for what
+# number they want from the sequence and it will print that number
 #
 #
 # Algorithm (pseudocode)
 #   Print intro
-#   n = number
-#   eval original number
-#   Start printing sequence
+#   make num and eval input to see what number they want from the sequence
+#   call x from pi(num)
+#   Print the answer
 #
 # def pi(num)
 # make x = 1 and y = 0
 # make a for loop with a range of num - 1
-# Use the quations x = x + y and y = x - y
+# Use the equations x = x + y and y = x - y
 # return x
 
 def main():
