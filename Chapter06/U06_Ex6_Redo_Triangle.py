@@ -51,9 +51,6 @@ def main():
     b = distance(p2, p3)
     c = distance(p3, p1)
 
-
-    s = a+b+c/2
-
     print("Side one is", p1)
     print("Side two is", p2)
     print("Side three is", p3)
