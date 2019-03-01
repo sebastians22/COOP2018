@@ -19,6 +19,14 @@
 # Input radius
 # Calculate using 4 * c.1415 * R**2 and 4/3 * 3.1415 * R ** 3
 # Print the answer
+#
+# shpereArea(radius)
+# have area = to 4 * math.pi * radius**2
+# return volume
+#
+# sphereVolume(radius)
+# have volume = 4/3 * math.pi*radius**3
+# return volume
 
 import math
 
