@@ -17,11 +17,12 @@
 #
 #
 # Algorithm (pseudocode)
-# Print the program description
-# Have the user input words using variable words
-# use len(variable.split()) and have it = to final
-# print final
+# Print the program description as an intro
+# Have the user input words using variable words using input
+# split the words and make it = final
+# print final in a neat way
 #
+
 
 def main():
 
